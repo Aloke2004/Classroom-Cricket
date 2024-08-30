@@ -1,0 +1,1 @@
+I developed a front-end project of a hand cricket app using HTML, CSS, and JavaScript. In this app, users can play a hand cricket game against the system, complete with interactive gameplay and sound effects to enhance the experience.
