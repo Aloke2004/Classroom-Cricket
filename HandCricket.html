@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classroom Cricket</title>
+    <link rel="icon" href="logo.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Classroom Cricket</h1>
+    <div class="game">
+        <div class="gameBoard">
+            <div class="userRuns">
+                <img class="userImage" src="cricket-ball.png">
+                <p>YOU</p>
+            </div>
+            <button class="head">
+                HEADS
+            </button>
+            <div class="start">
+                Match Starts!!
+            </div>
+            <div class="scoreboard">
+                <div class="innings">
+                    1st INNINGS
+                </div>
+                <div class="aboutRuns">
+                    <div class="run">--</div>
+                    <div class="totalRuns">RUNS SCORED : 0</div>
+                </div>
+                <div class="target">
+                    TARGET : 100
+                </div>
+            </div>
+            <div class="tossBoard">
+                <div class="tossTime">
+                    <div class="toss">
+                        Toss Time!!
+                    </div>
+                    <div class="select">
+                        Select HEADS or TAILS : 
+                    </div>
+                </div>
+                <div class="tossYouWon">
+                    <div class="tossWon">You WON!!</div>
+                    <div class="choose">Elect:</div>
+                    <div class="batORball">
+                        <button class="bat">Bat</button>
+                        <button class="bowl">Bowl</button>
+                    </div>
+                </div>
+                <div class="tossCompWon">
+                    <div class="tossWonComp">Computer WON!!</div>
+                    <div class="chooseComp">Elected to BAT first.</div>
+                </div>
+                <div class="tossResult">
+                    You will bat first
+                </div>
+            </div>
+            <button class="tail">
+                TAILS
+            </button>
+            <div class="compRuns">
+                <img class="compImage" src="cricket-bat.png">
+                <p>COMPUTER</p>
+            </div>
+            <div class="targetRuns">
+                Target = 100
+            </div>
+            <div class="result">
+                You WON!!!!!
+            </div>
+        </div>
+        <div class="options">
+            <button id="newGame">New Game</button>
+            <button class="runs">1</button>
+            <button class="runs">2</button>
+            <button class="runs">3</button>
+            <button class="runs">4</button>
+            <button class="runs">5</button>
+            <button class="runs">6</button>
+            <button id="declare">Declare!!</button>
+        </div>
+        <div class="continue">
+            Press any key to continue.....
+        </div>
+        <div class="restart">
+            <button>Play Again</button>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

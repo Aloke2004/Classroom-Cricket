@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    height:60px;
+    width:100vw;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 7.5px;
+    background-color: black;
+    color:white;
+    
+}
+
+.game{
+    height:100vh;
+    width:100vw;
+    background-color: rgb(23, 224, 23);
+    position:relative;    
+}
+
+.gameBoard{
+    background-color: peachpuff;
+    width:80%;
+    height: 60%;
+    position:absolute;
+    top:7%;
+    left:10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    border:4px solid black;
+}
+
+.userRuns{
+    height:200px;
+    width:150px;
+    margin-top:100px;
+    margin-bottom:100px;
+    background-color: rgb(240, 195, 167);
+    border:2px solid black;
+    border-radius: 20px;
+}
+
+.compRuns{
+    height:200px;
+    width:150px;
+    margin-top:100px;
+    margin-bottom:100px;
+    background-color:rgb(240,195,167);
+    border:2px solid black;
+    border-radius: 20px;
+}
+
+.userRuns img{
+    height:120px;
+    width:120px;
+    margin-left:15px;
+    margin-top:15px;
+}
+
+.userRuns p{
+    font-size: 20px;
+    text-align: center;
+    margin-top:20px;
+    font-weight: bold;
+}
+
+.compRuns img{
+    height:120px;
+    width:120px;
+    margin-left:15px;
+    margin-top:15px;
+}
+
+.compRuns p{
+    font-size: 20px;
+    text-align: center;
+    margin-top:20px;
+    font-weight: bold;
+}
+
+.scoreboard{
+    height:320px;
+    width:300px;
+    margin-top:125px;
+    margin-bottom:125px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.innings{
+    height:60px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.aboutRuns{
+    height:200px;
+    background-color:rgb(240,195,167);
+    border:4px solid black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.run{
+    height:150px;
+    width:300px;
+    font-size: 150px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.totalRuns{
+    height:50px;
+    width:300px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.target{
+    height:60px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top:20px;
+}
+
+.head{
+    height:150px;
+    width:150px;
+    margin-top:125px;
+    margin-bottom:125px;
+    background-color: black;
+    color:white;
+    border:2px solid white;
+    border-radius: 50%;
+    font-size:35px;
+    font-weight: bold;
+}
+
+.tail{
+    height:150px;
+    width:150px;
+    margin-top:125px;
+    margin-bottom:125px;
+    background-color: black;
+    color:white;
+    border:2px solid white;
+    border-radius: 50%;
+    font-size:35px;
+    font-weight: bold;
+}
+
+.head:hover{
+    background-color: white;
+    color:black;
+    border:2px solid black;
+    box-shadow: 2px 2px 10px black;
+    cursor:pointer;
+}
+
+.tail:hover{
+    background-color: white;
+    color:black;
+    border:2px solid black;
+    box-shadow: 2px 2px 10px black;
+    cursor:pointer;
+}
+
+.tossBoard{
+    height:250px;
+    width:350px;
+    margin-top:125px;
+    margin-bottom:150px;
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: rgb(240,195,167);
+    border:4px solid black;
+    border-radius: 35px;
+}
+
+.tossWon{
+    height:90px;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    padding-top:20px;
+}
+
+.choose{
+    height:60px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.batORball{
+    height:80px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.batORball button{
+    height:40px;
+    width:100px;
+    font-size: 25px;
+    gap:10px;
+    border:2px solid black;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.batORball button:hover{
+    border:2px solid white;
+    background-color: black;
+    color:white;
+    box-shadow: 2px 2px 10px black;
+    cursor:pointer;
+}
+
+.tossWonComp{
+    height:100px;
+    font-size: 40px;
+    text-align: center;
+    padding-top:40px;
+    font-weight: bold;
+}
+
+.chooseComp{
+    height:150px;
+    font-size: 30px;
+    text-align: center;
+    padding-top:20px;
+    font-weight: bold;
+}
+
+.toss{
+    height:115px;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 35px;
+}
+
+.tossResult{
+    height:250px;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+.select{
+    height:100px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.start{
+    height:150px;
+    width:350px;
+    margin-top:125px;
+    margin-bottom:150px;
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: rgb(240,195,167);
+    border:4px solid black;
+    border-radius: 35px;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.targetRuns{
+    height:150px;
+    width:350px;
+    margin-top:125px;
+    margin-bottom:150px;
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: rgb(240,195,167);
+    border:4px solid black;
+    border-radius: 35px;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.result{
+    height:150px;
+    width:350px;
+    margin-top:125px;
+    margin-bottom:150px;
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: rgb(23, 224, 23);
+    border:4px solid black;
+    border-radius: 35px;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.restart{
+    position:absolute;
+    top:73%;
+    left:45%;
+}
+
+.restart button{
+    height:50px;
+    width:160px;
+    font-size: 25px;
+    margin-right: 160px;
+    font-weight: bold;
+    background-color: black;
+    color:white;
+    border:2px solid white;
+    border-radius:25px;
+}
+
+.restart button:hover{
+    color:black;
+    background-color: white;
+    border:2px solid black;
+    box-shadow: 2px 2px 10px black;
+    cursor:pointer;
+}
+
+.options{
+    position:absolute;
+    top:73%;
+    left:11%;
+}
+
+.continue{
+    position:absolute;
+    top:73%;
+    left:11%;
+    width:80%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.runs{
+    height:80px;
+    width:80px;
+    border-radius: 50%;
+    font-size: 40px;
+    margin-right: 10px;
+    font-weight: bold;
+    color:white;
+    background-color: black;
+    border:2px solid white;
+}
+
+.runs:hover{
+    color:black;
+    background-color: white;
+    border:2px solid black;
+    box-shadow: 2px 2px 10px black;
+    cursor:pointer;
+}
+
+#newGame{
+    height:50px;
+    width:160px;
+    font-size: 25px;
+    margin-right: 160px;
+    font-weight: bold;
+    background-color: black;
+    color:white;
+    border:2px solid white;
+    border-radius:25px;
+}
+
+#declare{
+    height:50px;
+    width:160px;
+    font-size: 25px;
+    margin-left: 160px;
+    font-weight: bold;
+    background-color: black;
+    color:white;
+    border:2px solid white;
+    border-radius:25px;
+}
+
+#newGame:hover{
+    color:black;
+    background-color: white;
+    border:2px solid black;
+    box-shadow: 2px 2px 10px black;
+    cursor:pointer;
+}
+
+#declare:hover{
+    color:black;
+    background-color: white;
+    border:2px solid black;
+    box-shadow: 2px 2px 10px black;
+    cursor:pointer;
+}
+
+.border{
+    border:4px solid black;
+}
+
+.hide{
+    display:none;
+}
+
+.hide2{
+    display:none;
+}
